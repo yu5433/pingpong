@@ -36,7 +36,7 @@ def ml_loop(side: str):
             clf = pickle.load(file)
     """
 
-    filename = ""
+    filename = "player1_5.pickle"
     with open(filename, 'rb') as file:
         clf = pickle.load(file)
     # 2. Inform the game process that ml process is ready
